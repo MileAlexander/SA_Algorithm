@@ -1,0 +1,23 @@
+body{
+background-color: azure;
+    #root{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        div{
+            display: flex;
+            justify-content: space-around;
+            gap: 10px;
+            width: fit-content;
+            min-width: 100px;
+            height: 75px;
+            margin: auto;
+            margin-top: 45vh;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+        button{
+            width: 100px;
+        }
+    }
+}
